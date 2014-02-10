@@ -1,0 +1,39 @@
+Road : {'Frequency': 0.35, 'lenght': 2190, 'fc': 1, 'maxv': 6, 'Time': 2738}
+Rule : RightHand_NS {'carOut': 643, 'carCrash': 0, 'carIn': 959, 'Time': 2738}
+Rule : No_Rule_NS {'carOut': 607, 'carCrash': 0, 'carIn': 959, 'Time': 2738}
+
+Road : {'Frequency': 0.45, 'lenght': 2190, 'fc': 1, 'maxv': 6, 'Time': 2738}
+Rule : RightHand_NS {'carOut': 785, 'carCrash': 0, 'carIn': 1209, 'Time': 2738}
+Rule : No_Rule_NS {'carOut': 752, 'carCrash': 0, 'carIn': 1209, 'Time': 2738}
+
+Road : {'Frequency': 0.5, 'lenght': 2926, 'fc': 1, 'maxv': 4, 'Time': 5486}
+Rule : RightHand_NS {'carOut': 2062, 'carCrash': 0, 'carIn': 2819, 'Time': 5486}
+Rule : No_Rule_NS {'carOut': 2061, 'carCrash': 0, 'carIn': 2819, 'Time': 5486}
+
+Road : {'Frequency': 0.55, 'lenght': 2190, 'fc': 1, 'maxv': 6, 'Time': 2738}
+Rule : RightHand_NS {'carOut': 989, 'carCrash': 0, 'carIn': 1532, 'Time': 2738}
+Rule : No_Rule_NS {'carOut': 911, 'carCrash': 0, 'carIn': 1532, 'Time': 2738}
+
+Road : {'Frequency': 0.6, 'lenght': 2926, 'fc': 1, 'maxv': 4, 'Time': 5486}
+Rule : RightHand_NS {'carOut': 2405, 'carCrash': 0, 'carIn': 3273, 'Time': 5486}
+Rule : No_Rule_NS {'carOut': 2406, 'carCrash': 0, 'carIn': 3273, 'Time': 5486}
+
+Road : {'Frequency': 0.65, 'lenght': 2190, 'fc': 1, 'maxv': 6, 'Time': 2738}
+Rule : RightHand_NS {'carOut': 1168, 'carCrash': 0, 'carIn': 1780, 'Time': 2738}
+Rule : No_Rule_NS {'carOut': 1109, 'carCrash': 0, 'carIn': 1780, 'Time': 2738}
+
+Road : {'Frequency': 0.7, 'lenght': 2926, 'fc': 1, 'maxv': 4, 'Time': 5486}
+Rule : RightHand_NS {'carOut': 2806, 'carCrash': 0, 'carIn': 3814, 'Time': 5486}
+Rule : No_Rule_NS {'carOut': 2804, 'carCrash': 0, 'carIn': 3814, 'Time': 5486}
+
+Road : {'Frequency': 0.75, 'lenght': 2190, 'fc': 1, 'maxv': 6, 'Time': 2738}
+Rule : RightHand_NS {'carOut': 1353, 'carCrash': 0, 'carIn': 2086, 'Time': 2738}
+Rule : No_Rule_NS {'carOut': 1281, 'carCrash': 0, 'carIn': 2086, 'Time': 2738}
+
+Road : {'Frequency': 0.8, 'lenght': 2926, 'fc': 1, 'maxv': 4, 'Time': 5486}
+Rule : RightHand_NS {'carOut': 3273, 'carCrash': 0, 'carIn': 4447, 'Time': 5486}
+Rule : No_Rule_NS {'carOut': 3269, 'carCrash': 2, 'carIn': 4447, 'Time': 5486}
+
+Road : {'Frequency': 0.9, 'lenght': 2926, 'fc': 1, 'maxv': 4, 'Time': 5486}
+Rule : RightHand_NS {'carOut': 3642, 'carCrash': 0, 'carIn': 4961, 'Time': 5486}
+Rule : No_Rule_NS {'carOut': 3621, 'carCrash': 20, 'carIn': 4961, 'Time': 5486}

@@ -1,0 +1,29 @@
+import random
+from . import No_Rule_NS
+from . import RightHand_NS
+from system import *
+
+class driver(object):
+    def __init__(self , road ,test_type):
+        self.journey = 0
+        self.roadFc = road.fa
+        self.maxa = random.randint(2,3)
+        
+        self.velocity = random.randint(road.Vmin,road.Vmax)
+        self.nextVelocity = self.velocity
+        
+        self.MaxV = random.randint(roadMaxV-2,roadMaxV)
+
+        if test_type == "No_Rule_NS":
+            self.FSA = No_Rule_NS.driveFSA(self)
+        elif test_type == "RightHand_NS":
+            self.FSA = RightHand_NS.driveFSA(self)
+        
+        self.crashTime = 0
+        self.option = "move"
+        
+        self.ThisBefore = None
+        self.ThisAfter = None
+        
+        self.OtherBefore = None
+        self.OtherAfter = None

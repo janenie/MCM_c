@@ -1,0 +1,4 @@
+Road : {'lenght': 500, 'Frequency': 0.5, 'maxv': 7, 'Time': 750}
+Rule : RightHand_NS {'carOut': 306, 'carCrash': 0, 'carIn': 398}
+Rule : No_Rule_NS {'carOut': 287, 'carCrash': 0, 'carIn': 398}
+
