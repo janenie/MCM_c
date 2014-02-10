@@ -8,7 +8,6 @@ class test(object):
     def __init__(self,road):
         self.road = road
         self.drivers = []
-        #self.testTime = int(round(road.numberOfPiece * 1.5))
         self.testTime = testTime
         self.inCar = 0
         self.receiveCar = 0
@@ -23,8 +22,28 @@ class test(object):
     
     def handleCarIn(self,tmpCar):
         self.FSA.decideLane(tmpCar)
-        self.drivers.append(cpy(tmpCar))
-        self.inCar += 1
+        this = tmpCar.lane
+        other = "Right"
+        if this == "Right":
+            other = "Left"
+        start = {"Left" : None , "Right" : None}
+        for item in self.drivers:
+            if item.journey > 0:
+                break
+            lane = item.lane
+            start[lane] = item
+
+        if start[this] == None:
+            self.drivers.append(cpy(tmpCar))
+            self.inCar += 1
+            return True
+        elif start[other] == None:
+            tmpCar.lane = other
+            self.drivers.append(cpy(tmpCar))
+            self.inCar += 1
+            return True
+        else:
+            return False
 
     def handleCarOut(self):
         removeList = []
@@ -49,17 +68,19 @@ class test(object):
             self.crashCar += 1
                 
     def newMove(self,item):
+        p = random.random()
+        if p < Pbrake:
+            item.nextVelocity -= 1
+        item.nextVelocity = max(item.nextVelocity,0)
         item.velocity = item.nextVelocity
         item.journey += item.velocity
 
     def newSwitch(self,item):
-#        return 
         if item.lane == "Right":
             item.lane = "Left"
         else:
             item.lane = "Right"
         item.option = "move"
-        #print "changeLane"
 
     def handleCrash(self):
         nextCar = {"Left" : None , "Right" : None}

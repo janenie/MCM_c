@@ -1,6 +1,7 @@
 basicLength = 5
 timesPerSecond = 1
 bigV = 20
+Pbrake = 0.0
 
 #testTime
 basicCrashTime = 10
@@ -9,8 +10,8 @@ basicCrashTime = 10
 testTimes = 10
 test_type = ["RightHand_NS" , "No_Rule_NS"]
 type_len = 2
-basicFrequency = 0.50
-perTime = 0.00
+basicFrequency = 0.35
+perTime = 0.05
 testTime = 3000
 
 #road
