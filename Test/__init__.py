@@ -8,7 +8,8 @@ class test(object):
     def __init__(self,road):
         self.road = road
         self.drivers = []
-        self.testTime = int(round(road.numberOfPiece * 1.5))
+        #self.testTime = int(round(road.numberOfPiece * 1.5))
+        self.testTime = testTime
         self.inCar = 0
         self.receiveCar = 0
         self.crashCar = 0
@@ -48,7 +49,6 @@ class test(object):
             self.crashCar += 1
                 
     def newMove(self,item):
-        
         item.velocity = item.nextVelocity
         item.journey += item.velocity
 

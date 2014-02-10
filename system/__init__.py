@@ -6,18 +6,16 @@ bigV = 20
 basicCrashTime = 10
 
 #test
-testTimes = 1
+testTimes = 10
 test_type = ["RightHand_NS" , "No_Rule_NS"]
 type_len = 2
-basicFrequency = 0.5
-perTime = 0.05
+basicFrequency = 0.50
+perTime = 0.00
+testTime = 3000
 
 #road
 roadMaxV = 7
-minNumOfPiece = 500
-maxNumOfPiece = 500
+minNumOfPiece = 4000
+maxNumOfPiece = 4000
 ProbabilityOfCurve = 0.1
 maxCurveNum = 10
-
-#count_density
-totalPiece = 10

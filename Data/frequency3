@@ -1,0 +1,40 @@
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 457, 'carCrash': 0, 'carIn': 1036}
+Rule : No_Rule_NS {'carOut': 236, 'carCrash': 0, 'carIn': 1036}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 461, 'carCrash': 0, 'carIn': 1047}
+Rule : No_Rule_NS {'carOut': 255, 'carCrash': 0, 'carIn': 1047}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 416, 'carCrash': 0, 'carIn': 1018}
+Rule : No_Rule_NS {'carOut': 227, 'carCrash': 0, 'carIn': 1018}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 502, 'carCrash': 0, 'carIn': 1035}
+Rule : No_Rule_NS {'carOut': 283, 'carCrash': 0, 'carIn': 1035}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 492, 'carCrash': 0, 'carIn': 1063}
+Rule : No_Rule_NS {'carOut': 269, 'carCrash': 0, 'carIn': 1063}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 438, 'carCrash': 0, 'carIn': 1085}
+Rule : No_Rule_NS {'carOut': 249, 'carCrash': 0, 'carIn': 1085}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 415, 'carCrash': 0, 'carIn': 1003}
+Rule : No_Rule_NS {'carOut': 213, 'carCrash': 0, 'carIn': 1003}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 462, 'carCrash': 0, 'carIn': 1070}
+Rule : No_Rule_NS {'carOut': 264, 'carCrash': 0, 'carIn': 1070}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 499, 'carCrash': 0, 'carIn': 1059}
+Rule : No_Rule_NS {'carOut': 279, 'carCrash': 0, 'carIn': 1059}
+
+Road : {'lenght': 4000, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 457, 'carCrash': 0, 'carIn': 1046}
+Rule : No_Rule_NS {'carOut': 253, 'carCrash': 0, 'carIn': 1046}
+

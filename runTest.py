@@ -5,8 +5,8 @@ from Driver import driver
 from system import *
 import random
 
-f1 = open("Data/data", "w")
-f2 = open("Data/density", "w")
+f1 = open("Data/data2", "w")
+f2 = open("Data/density2", "w")
 road_type = Road()
 drivers_list = []
 show_time = []
@@ -16,6 +16,7 @@ def runTest(template_test,type_id):
     tmpTest1.setFSA(test_type[type_id])
     pointer = 0
     totalCar = len(drivers_list)
+    f2.write("Rule : " + test_type[type_id] + "\n")
     for j in xrange(tmpTest1.testTime):
         tmpTest1.clearCrash()
         tmpTest1.handleCarOut()
@@ -25,6 +26,10 @@ def runTest(template_test,type_id):
         tmpTest1.finish()
         tmpTest1.makeDecision()
         tmpTest1.handleCrash()
+        if j % 60 == 59:
+            f2.write(str(len(tmpTest1.drivers) * 1.0 / tmpTest1.road.numberOfPiece))
+            f2.write(" , ")
+    f2.write("\n")
         
     f1.write("Rule : " + test_type[type_id] + " " 
         + str({"carIn" : tmpTest1.inCar , "carOut" : tmpTest1.receiveCar , "carCrash" : tmpTest1.crashCar})
@@ -50,6 +55,9 @@ for i in xrange(testTimes):
     init_drivers(tmpTest.testTime)
     f1.write("Road : " 
         + str({"maxv" : road_type.Vmax , "lenght" : road_type.numberOfPiece , "Time" : tmpTest.testTime , "Frequency" : PoissonCoef})
+        + "\n")
+    f2.write("Road : " 
+        + str({"lenght" : road_type.numberOfPiece , "Time" : tmpTest.testTime , "Frequency" : PoissonCoef})
         + "\n")
     for j in xrange(type_len):
         runTest(tmpTest,j)

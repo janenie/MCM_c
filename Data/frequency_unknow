@@ -1,0 +1,40 @@
+Road : {'lenght': 4199, 'Frequency': 0.35, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 1272, 'carCrash': 0, 'carIn': 2178}
+Rule : No_Rule_NS {'carOut': 1100, 'carCrash': 0, 'carIn': 2178}
+
+Road : {'lenght': 4199, 'Frequency': 0.39999999999999997, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 1423, 'carCrash': 0, 'carIn': 2485}
+Rule : No_Rule_NS {'carOut': 1286, 'carCrash': 0, 'carIn': 2485}
+
+Road : {'lenght': 4199, 'Frequency': 0.44999999999999996, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 1678, 'carCrash': 0, 'carIn': 2810}
+Rule : No_Rule_NS {'carOut': 1506, 'carCrash': 0, 'carIn': 2810}
+
+Road : {'lenght': 4199, 'Frequency': 0.5, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 1695, 'carCrash': 0, 'carIn': 3108}
+Rule : No_Rule_NS {'carOut': 1632, 'carCrash': 0, 'carIn': 3108}
+
+Road : {'lenght': 4199, 'Frequency': 0.55, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 1841, 'carCrash': 0, 'carIn': 3389}
+Rule : No_Rule_NS {'carOut': 1778, 'carCrash': 0, 'carIn': 3389}
+
+Road : {'lenght': 4199, 'Frequency': 0.6, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 1996, 'carCrash': 0, 'carIn': 3802}
+Rule : No_Rule_NS {'carOut': 1962, 'carCrash': 0, 'carIn': 3802}
+
+Road : {'lenght': 4199, 'Frequency': 0.65, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 1959, 'carCrash': 0, 'carIn': 4067}
+Rule : No_Rule_NS {'carOut': 2110, 'carCrash': 0, 'carIn': 4067}
+
+Road : {'lenght': 4199, 'Frequency': 0.7, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 2154, 'carCrash': 0, 'carIn': 4345}
+Rule : No_Rule_NS {'carOut': 2274, 'carCrash': 0, 'carIn': 4345}
+
+Road : {'lenght': 4199, 'Frequency': 0.75, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 2239, 'carCrash': 0, 'carIn': 4754}
+Rule : No_Rule_NS {'carOut': 2510, 'carCrash': 0, 'carIn': 4754}
+
+Road : {'lenght': 4199, 'Frequency': 0.8, 'maxv': 7, 'Time': 6299}
+Rule : RightHand_NS {'carOut': 2420, 'carCrash': 0, 'carIn': 5042}
+Rule : No_Rule_NS {'carOut': 2647, 'carCrash': 0, 'carIn': 5042}
+

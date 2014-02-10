@@ -1,0 +1,40 @@
+Road : {'lenght': 4140, 'Frequency': 0.35, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 472, 'carCrash': 0, 'carIn': 1034}
+Rule : No_Rule_NS {'carOut': 261, 'carCrash': 0, 'carIn': 1034}
+
+Road : {'lenght': 4140, 'Frequency': 0.39999999999999997, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 417, 'carCrash': 0, 'carIn': 1156}
+Rule : No_Rule_NS {'carOut': 241, 'carCrash': 0, 'carIn': 1156}
+
+Road : {'lenght': 4140, 'Frequency': 0.44999999999999996, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 480, 'carCrash': 0, 'carIn': 1351}
+Rule : No_Rule_NS {'carOut': 252, 'carCrash': 0, 'carIn': 1351}
+
+Road : {'lenght': 4140, 'Frequency': 0.5, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 509, 'carCrash': 0, 'carIn': 1483}
+Rule : No_Rule_NS {'carOut': 299, 'carCrash': 0, 'carIn': 1483}
+
+Road : {'lenght': 4140, 'Frequency': 0.55, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 450, 'carCrash': 0, 'carIn': 1614}
+Rule : No_Rule_NS {'carOut': 328, 'carCrash': 0, 'carIn': 1614}
+
+Road : {'lenght': 4140, 'Frequency': 0.6, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 513, 'carCrash': 0, 'carIn': 1809}
+Rule : No_Rule_NS {'carOut': 358, 'carCrash': 0, 'carIn': 1809}
+
+Road : {'lenght': 4140, 'Frequency': 0.65, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 552, 'carCrash': 0, 'carIn': 1927}
+Rule : No_Rule_NS {'carOut': 415, 'carCrash': 0, 'carIn': 1927}
+
+Road : {'lenght': 4140, 'Frequency': 0.7, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 530, 'carCrash': 0, 'carIn': 2090}
+Rule : No_Rule_NS {'carOut': 405, 'carCrash': 0, 'carIn': 2090}
+
+Road : {'lenght': 4140, 'Frequency': 0.75, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 524, 'carCrash': 0, 'carIn': 2245}
+Rule : No_Rule_NS {'carOut': 476, 'carCrash': 0, 'carIn': 2245}
+
+Road : {'lenght': 4140, 'Frequency': 0.8, 'maxv': 7, 'Time': 3000}
+Rule : RightHand_NS {'carOut': 537, 'carCrash': 0, 'carIn': 2398}
+Rule : No_Rule_NS {'carOut': 456, 'carCrash': 0, 'carIn': 2398}
+
